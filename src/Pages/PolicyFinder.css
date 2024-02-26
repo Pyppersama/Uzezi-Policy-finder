@@ -1,0 +1,87 @@
+.policyFinder{
+    background: linear-gradient(to bottom, rgb(100, 17, 17), rgb(236, 138, 138) );
+    padding: 90px 0;
+}
+.form-section{
+    max-width: 400px;
+    height: 100%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+.form-section h1{
+    text-align: center;
+    color: gray;
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+}
+.form-section form div{
+    margin-bottom: 20px;
+}
+.form-section form label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.form-section form input{
+    display: block;
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid grey;
+    font-size: 1rem;
+}
+.form-section form button{
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: linear-gradient(to right, rgb(100, 17, 17), rgb(236, 138, 138) );
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.form-section ul{
+    padding: 10px;
+}
+.form-section ul li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.form-section ul li a{
+    text-decoration: none;
+    color: brown;
+    font-weight: 600;    
+}
+.form-section ul li a:hover{
+    color: white;
+    background-color: rgb(236, 138, 138) ;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+
+  @media (max-width: 480px){
+    .form-section{
+        max-width: 350px;
+        padding: 30px 20px;
+    }
+
+  }
+
+  @media (max-width: 420px){
+    .form-section{
+        max-width: 300px;
+        padding: 20px 10px;
+    }
+    .form-section form input{
+        display: block;
+        padding: 10px;
+    }
+  }
